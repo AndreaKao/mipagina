@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- METAS ADJUNTADAS -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- LINK'S ADJUNTADAS -->
 	<link rel="stylesheet" type="text/css" href="asset/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
 	<link rel="stylesheet" type="text/css" href="asset/css/media.css">
 	<title>Jardinería</title>
 </head>
-<body>
 
+<body>
+<!-- HEADER CONTAINER MENÚ -->
 	<header>		
-		<div class="container1">
+		<div class="container uno">
 			<div class="row">
-				<div class="col-8">
-					<strong><p>Start Bootstrap</p></strong>
+				<div class="col-3" id="start">
+					<ul>
+						<li><strong><p>Start Bootstrap</p></strong></li>
+						<li><i class="fa fa-bars" aria-hidden="true" id="icono"></i></li>
+					</ul>
 				</div>
-				<div class="col-1">
-					<p><strong>Home</strong></p>
-				</div>
-				<div class="col-1">
-					<p><strong>About</strong></p>
-				</div>
-				<div class="col-1">
-					<p><strong>Service</strong></p>
-				</div>
-				<div class="col-1">
-					<p><strong>Contact</strong></p>
+
+				<div class="col-5"></div>
+				<div class="col-4" id="hambur">
+					<ul class="lista">
+						<li><strong>Home</strong></li>
+						<li><strong>About</strong></li>
+						<li><strong>Service</strong></li>
+						<li><strong>Contact</strong></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</header>
 
+<!-- SECCIÓN CONTAINER IMÁGEN PRINCIPAL -->
 	<section>
-		<div class="container2"><img src="asset/img/nav.jpg"></div>
+		<div class="container dos"><img src="asset/img/nav.jpg"></div>
 	</section>
 
+<!-- SECCIÓN CONTAINER -->
 	<section>
-		<div class="container3">
-			<div class="container3a">
-				<div class="row">
-					<div class="col-8">
-						<h1>What We Do</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequuntur explicabo cum debitis labore in rerum quis, cumque, laboriosam consequatur sed ipsa maiores quam quo consectetur rem fuga optio! Excepturi!
-
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum reiciendis recusandae adipisci fugit laborum, libero in ipsam, laboriosam molestias ad ut, repellat labore sit, eaque praesentium. Laboriosam perferendis, ipsam accusantium.</p>
-						<button>Call to Action</button>
-					</div>
-					<div class="col-4">
-						<h1>Contact</h1>
-						<h3>Start Bootstrap</h3>
-						<p>3481 Merlose Place
-						Beverly Hills, CA 90210
-						P(123)456-789
-						E:<a>name.example.com</a></p>
-					</div>
+		<div class="container tres">
+			<div class="row">
+				<div class="col-8">
+					<h1>What We Do</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum consequuntur explicabo cum debitis labore in rerum quis, cumque, laboriosam consequatur sed ipsa maiores quam quo consectetur rem fuga optio! Excepturi!</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum reiciendis recusandae adipisci fugit laborum, libero in ipsam, laboriosam molestias ad ut, repellat labore sit, eaque praesentium. Laboriosam perferendis, ipsam accusantium.</p>
+					<button>Call to Action <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+				</div>
+				<div class="col-4 tresb">
+					<h1>Contact Us</h1>
+					<h3>Start Bootstrap</h3>
+					<p>3481 Merlose Place</p>
+					<p>Beverly Hills, CA 90210</p>
+					<br>
+					<p>P(123)456-789</p>
+					<p>E: <a href="#">name.example.com</a></p></div>
 				</div>
 			</div>
-			
-			<div class="container3b">
+		</div>
+
+<!-- SECCIÓN CONTAINER IMÁGENES -->
+			<div class="container cuatro">
 				<div class="row">
-					<div class="col-4" id="peque1">
+					<div class="col-4" id="peque1 text">
 						<img src="asset/img/peque1.jpg">
 						<h3>Landscaping Servicesmo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A perspiciatis, aut cumque ratione quidem explicabo illum nobis ea quas quod dicta ab ullam eius adipisci nihil, eos ipsum, exercitationem ex?</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nemo impedit earum iusto magni quibusdam, in, sit, possimus itaque nisi expedita quos at ad tempora facilis, vel corrupti hic. Obcaecati.</p>
 						<button>Find Out More!</button>
 					</div>
-					<div class="col-4" id="peque2">
+					<div class="col-4" id="peque2 text">
 						<img src="asset/img/peque2.jpg">
 						<h3>Plants and Bonzai</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nemo impedit earum iusto magni quibusdam, in, sit, possimus itaque nisi expedita quos at ad tempora facilis, vel corrupti hic. Obcaecati.</p>
 						<button>Find Out More!</button>
 					</div>
-					<div class="col-4" id="peque3">
+					<div class="col-4" id="peque3 text">
 						<img src="asset/img/peque3.jpg">
 						<h3>Our Products</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nemo impedit earum iusto magni quibusdam, in, sit, possimus itaque nisi expedita quos at ad tempora facilis, vel corrupti hic. Obcaecati.</p>
@@ -83,15 +91,19 @@
 		</div>
 	</section>
 
+<!-- FOOTER CONTAINER -->
 	<footer>
-		<div class="container4">
+		<div class="container cinco">
 			<div class="row">
 				<div class="col-12">
-				<p>Copyright Your Website 2017</p>
+				<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Your Website 2017</p>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+<!-- SCRIPT ADJUNTADOS -->
+<script src="https://use.fontawesome.com/50f497f43c.js"></script>
 
 </body>
 </html>

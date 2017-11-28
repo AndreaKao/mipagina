@@ -1,52 +1,164 @@
 
-/*Mobile*/
+/* MOBILE */
 @media (max-width: 767px){
 	[class*="col-"] {
 		max-width: 100%;
 		flex:none;
 	}
-}
 
-@media {
-	.container1 .row{
-		padding: 1em;
+	/* Header Container Menú */
+	.uno li {
+		float: left;
+		list-style: none;
+		margin-top: 1em;	
+		margin-left: 2em;
 	}
-}
 
-@media {
-	.container2 img {
-		object-fit: cover;
-			width: 100%
+	/* Sección Container */
+	.tres{
+		width: 95%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	padding: 2em;
+  	line-height: 1.5em;
+  }
+	
+	.tres h1 {
+		margin-bottom: 0.5em;
 	}
-}
 
-@media {
-	.container3{
-		width: 80%;
+  .tresb h1{
+		margin-bottom: 0.5em;
+  }
+
+	/* Sección Container Imágenes */
+	.cuatro {
+		width: 90%;
 		margin-right: auto;
   	margin-left: auto;
-  	margin-bottom: 2em;
+  	line-height: 1.5em;
+	}
+
+	.cuatro h3 {
+		width: 90%;
+		margin-top: 0.2em;
+		margin-right: auto;
+		margin-bottom: 0.2em;
+  	margin-left: auto;
+  	line-height: 2em;
+	}
+
+	.cuatro p {
+		width: 90%;
+		margin-right: auto;
+  	margin-left: auto;
+  	line-height: 1.5em;
+	}
+	
+	.cuatro button {
+		margin-top: 2em;
+		margin-right: auto;
+  	margin-left: 1em;
+  	line-height: 1em;
+	}
+
+	.cuatro img {
+		width: 100%;
+	}
+	/* Botones */
+	button {
+		margin: 0.5em 0 3em;
 	}
 }
 
-@media {
-	.container3a {
-		padding: 2em;
+
+/* MENÚ HAMBURGUESA */
+@media (min-width: 767px) and (max-width: 1600px) {
+	#icono {
+		visibility: hidden;
+	}
+	.lista {
+		visibility: visible;
 	}
 }
 
-@media {
-	.container3 h3{
-		margin-top: 1em;
+@media (min-width: 1px) and (max-width: 766px) {
+	#icono {
+		visibility: visible;
+		margin-left: 7em;
+	}
+
+	.lista {
+		visibility: hidden;
 	}
 }
 
-@media {
-	.container3 p{
-		padding: 2em;
-		line-height: 1.5em;
+
+/* NAVEGADOR DE COMPUTADOR */
+@media (min-width: 768px){
+	/* Header Container Menú */
+	.uno {
+		padding: 1em;
+	}
+
+	.uno li {
+		float: left;
+		margin-left: 2.5em;
+		list-style: none;
+	}
+	
+	/* Sección Container */
+		.tres{
+		width: 85%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	padding: 2em;
+  	line-height: 2em;
+  }
+
+  .tresb {
+  	padding-left: 6em;
+  }
+
+	/* Sección Container Imágenes */
+	.cuatro {
+		width: 85%;
+		margin-right: auto;
+  	margin-left: auto;
+  	line-height: 2em;
+	}
+
+	.cuatro img {
+		width: 85%;
+		text-align: center;
+		margin-right: 1.5em;
+  	margin-left: 1.5em;
+	}
+
+	.cuatro h3 {
+		width: 75%;
+		margin-top: 0.5em;
+		margin-right: auto;
+		margin-bottom: 0.5em;
+  	margin-left: auto;
+  	line-height: 2em;
+	}
+
+	.cuatro p {
+		width: 75%;
+		margin-right: auto;
+  	margin-left: auto;
+  	line-height: 2em;
+	}
+	
+	.cuatro button {
+		margin-right: auto;
+  	margin-left: 3em;
+  	line-height: 1em;
+	}
+
+	/* Botones */
+	button {
+		margin: 1em 0 3em;
 	}
 }
-
-
-

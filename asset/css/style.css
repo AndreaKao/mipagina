@@ -2,6 +2,8 @@ body {
 	background-color: #FFE8E8;
 }
 
+/* HEADER CONTAINER MENÚ */
+
 header {
 	background-color: #373C43;
 	color: #fff; 
@@ -9,29 +11,23 @@ header {
 	height: 50px;
 }
 
-
-/*
-.container {
-	background-color: red;
+/* SECCIÓN CONTAINER IMÁGEN PRINCIPAL */
+.dos img {
+	object-fit: cover;
+		height: 25em;
+		width: 100%
 }
 
-.container1 .row{
+/* BOTONES */
+button {
+	background-color: #4048FF;
+	color: #fff;
+	border-radius: 1em;
 	padding: 1em;
-}
-*/
-.container2 img {
-	height: 25em;
+	margin: 2em;
 }
 
-/*
-.container3 {
-	width: 80%;
-	margin-right: auto;
-  	margin-left: auto;
-}
-*/
-
-
+/* FOOTER CONTAINER */
 footer {
 	background-color: #373C43;
 	color: #fff; 
@@ -41,18 +37,10 @@ footer {
 	padding: 4em;
 }
 
-button {
-	background-color: #4048FF;
-	color: #fff;
-	border-radius: 1em;
-	padding: 1em;
-}
-/*
-.container3a .row{
-	width: 80%;
-}
 
-.container3b .row{
-	width: 80%;
-}*/
+
+
+
+
+
 
