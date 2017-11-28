@@ -1,0 +1,52 @@
+
+/*Mobile*/
+@media (max-width: 767px){
+	[class*="col-"] {
+		max-width: 100%;
+		flex:none;
+	}
+}
+
+@media {
+	.container1 .row{
+		padding: 1em;
+	}
+}
+
+@media {
+	.container2 img {
+		object-fit: cover;
+			width: 100%
+	}
+}
+
+@media {
+	.container3{
+		width: 80%;
+		margin-right: auto;
+  	margin-left: auto;
+  	margin-bottom: 2em;
+	}
+}
+
+@media {
+	.container3a {
+		padding: 2em;
+	}
+}
+
+@media {
+	.container3 h3{
+		margin-top: 1em;
+	}
+}
+
+@media {
+	.container3 p{
+		padding: 2em;
+		line-height: 1.5em;
+	}
+}
+
+
+
