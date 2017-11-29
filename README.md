@@ -24,7 +24,7 @@
 + Todos los container están modificados pasa ser visualizados correctamente tanto en un tamaño de una ventana de navegador como para una ventana del tamaño de un celular que es mas pequeño.
 
 	+ En la parte superior está Header, donde está el primer container, se encuentra ubicado el menú horizontal en la ventana del navegador del computador.
-		+Al momento de visualizarlo en una venyama mas pequeña, el menú pasa a ser de tipo hamburguesa. 
+		+ Al momento de visualizarlo en una venyama mas pequeña, el menú pasa a ser de tipo hamburguesa. 
 
 	+ En el próximo container está adjuntada la imágen principal.
 		+ Al momento de visualizalo en una ventana mas pequeña, la imágen se ve en zoom respetando el alto máximo.
