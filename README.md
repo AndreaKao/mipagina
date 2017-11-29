@@ -10,7 +10,7 @@
 
 + La tipografīa utilizada es Helvetica
 
-+ Archivo base index.html, enlazado con style.css (estilos), media.css (interacción según ventana) y grid.css (con container, gutters columnas y filas)
++ Archivo base index.html, enlazado con style.css (estilos), media.css (interacción según ventana) y grid.css (con container, gutters columnas y filas).
 
 + Todas las imagenes se encuentran en la carpeta imagenes dentro de assets (img)
 
