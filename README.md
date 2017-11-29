@@ -10,7 +10,7 @@
 
 + La tipografīa utilizada es Helvetica
 
-+ Archivo base index.html, enlazado con style.css (estilos), media.css (interacción según ventana) y grid.css (sistema de grillas, columnas y filas)
++ Archivo base index.html, enlazado con style.css (estilos), media.css (interacción según ventana) y grid.css (con container, gutters columnas y filas)
 
 + Todas las imagenes se encuentran en la carpeta imagenes dentro de assets (img)
 
@@ -29,7 +29,7 @@
 	+ En el próximo container está adjuntada la imágen principal.
 		+ Al momento de visualizalo en una ventana mas pequeña, la imágen se ve en zoom respetando el alto máximo.
 
-	+ Luego en el siguiente container se crea un nuevo row con dos columnas de disStinto tamaño.
+	+ Luego en el siguiente container se crea un nuevo row con dos columnas de distinto tamaño.
 		+ Al momento de visualizalo en una ventana mas pequeña, los textos se pueden observar ordenados hacia abajo como tipo "lista".
 
 	+ Se crea otro nuevo container en un row con 3 columnas del mismo tamaño acompañados de una imagen cada uno. 
